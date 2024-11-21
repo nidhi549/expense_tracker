@@ -6,7 +6,7 @@ import 'package:path_provider/path_provider.dart';
 import 'bindings/expense_binding.dart';
 import 'models/expense_model.dart'; // Import your Expense model
 import 'views/home_screen.dart';
-a
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final appDocumentDirectory = await getApplicationDocumentsDirectory();
